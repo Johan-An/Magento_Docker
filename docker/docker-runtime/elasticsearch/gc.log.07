@@ -1,0 +1,422 @@
+[2024-03-11T08:33:56.599+0000][7][gc,heap] Heap region size: 1M
+[2024-03-11T08:33:56.599+0000][7][gc,heap,coops] Heap address: 0x00000000e0000000, size: 512 MB, Compressed Oops mode: 32-bit
+[2024-03-11T08:33:56.871+0000][7][gc           ] Using G1
+[2024-03-11T08:33:56.891+0000][7][gc           ] Periodic GC disabled
+[2024-03-11T08:33:57.029+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 146209292 ns, Reaching safepoint: 615542 ns, At safepoint: 6125 ns, Total: 621667 ns
+[2024-03-11T08:33:57.144+0000][7][gc,start     ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-03-11T08:33:57.144+0000][7][gc,task      ] GC(0) Using 8 workers of 8 for evacuation
+[2024-03-11T08:33:57.144+0000][7][gc,age       ] GC(0) Desired survivor size 2097152 bytes, new threshold 15 (max threshold 15)
+[2024-03-11T08:33:57.147+0000][7][gc,age       ] GC(0) Age table with threshold 15 (max threshold 15)
+[2024-03-11T08:33:57.147+0000][7][gc,age       ] GC(0) - age   1:    3305464 bytes,    3305464 total
+[2024-03-11T08:33:57.147+0000][7][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0.1ms
+[2024-03-11T08:33:57.147+0000][7][gc,phases    ] GC(0)   Merge Heap Roots: 0.1ms
+[2024-03-11T08:33:57.147+0000][7][gc,phases    ] GC(0)   Evacuate Collection Set: 1.6ms
+[2024-03-11T08:33:57.147+0000][7][gc,phases    ] GC(0)   Post Evacuate Collection Set: 0.3ms
+[2024-03-11T08:33:57.147+0000][7][gc,phases    ] GC(0)   Other: 1.2ms
+[2024-03-11T08:33:57.147+0000][7][gc,heap      ] GC(0) Eden regions: 25->0(35)
+[2024-03-11T08:33:57.147+0000][7][gc,heap      ] GC(0) Survivor regions: 0->4(4)
+[2024-03-11T08:33:57.147+0000][7][gc,heap      ] GC(0) Old regions: 0->0
+[2024-03-11T08:33:57.148+0000][7][gc,heap      ] GC(0) Archive regions: 0->0
+[2024-03-11T08:33:57.148+0000][7][gc,heap      ] GC(0) Humongous regions: 1->1
+[2024-03-11T08:33:57.148+0000][7][gc,metaspace ] GC(0) Metaspace: 14045K(14592K)->14045K(14592K) NonClass: 12666K(13056K)->12666K(13056K) Class: 1379K(1536K)->1379K(1536K)
+[2024-03-11T08:33:57.148+0000][7][gc           ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 26M->4M(512M) 4.297ms
+[2024-03-11T08:33:57.148+0000][7][gc,cpu       ] GC(0) User=0.00s Sys=0.00s Real=0.01s
+[2024-03-11T08:33:57.148+0000][7][safepoint    ] Safepoint "G1CollectForAllocation", Time since last: 114086125 ns, Reaching safepoint: 95375 ns, At safepoint: 4489583 ns, Total: 4584958 ns
+[2024-03-11T08:33:57.251+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 102463833 ns, Reaching safepoint: 198417 ns, At safepoint: 8875 ns, Total: 207292 ns
+[2024-03-11T08:33:57.545+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 294391583 ns, Reaching safepoint: 153542 ns, At safepoint: 16750 ns, Total: 170292 ns
+[2024-03-11T08:33:57.591+0000][7][gc,start     ] GC(1) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-03-11T08:33:57.592+0000][7][gc,task      ] GC(1) Using 8 workers of 8 for evacuation
+[2024-03-11T08:33:57.592+0000][7][gc,age       ] GC(1) Desired survivor size 2621440 bytes, new threshold 1 (max threshold 15)
+[2024-03-11T08:33:57.595+0000][7][gc,age       ] GC(1) Age table with threshold 1 (max threshold 15)
+[2024-03-11T08:33:57.595+0000][7][gc,age       ] GC(1) - age   1:    2550304 bytes,    2550304 total
+[2024-03-11T08:33:57.595+0000][7][gc,phases    ] GC(1)   Pre Evacuate Collection Set: 0.1ms
+[2024-03-11T08:33:57.595+0000][7][gc,phases    ] GC(1)   Merge Heap Roots: 0.1ms
+[2024-03-11T08:33:57.595+0000][7][gc,phases    ] GC(1)   Evacuate Collection Set: 2.5ms
+[2024-03-11T08:33:57.595+0000][7][gc,phases    ] GC(1)   Post Evacuate Collection Set: 0.3ms
+[2024-03-11T08:33:57.595+0000][7][gc,phases    ] GC(1)   Other: 0.6ms
+[2024-03-11T08:33:57.596+0000][7][gc,heap      ] GC(1) Eden regions: 35->0(201)
+[2024-03-11T08:33:57.596+0000][7][gc,heap      ] GC(1) Survivor regions: 4->3(5)
+[2024-03-11T08:33:57.596+0000][7][gc,heap      ] GC(1) Old regions: 0->4
+[2024-03-11T08:33:57.596+0000][7][gc,heap      ] GC(1) Archive regions: 0->0
+[2024-03-11T08:33:57.596+0000][7][gc,heap      ] GC(1) Humongous regions: 1->1
+[2024-03-11T08:33:57.596+0000][7][gc,metaspace ] GC(1) Metaspace: 20263K(20864K)->20263K(20864K) NonClass: 18084K(18432K)->18084K(18432K) Class: 2178K(2432K)->2178K(2432K)
+[2024-03-11T08:33:57.596+0000][7][gc           ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 39M->6M(512M) 4.575ms
+[2024-03-11T08:33:57.596+0000][7][gc,cpu       ] GC(1) User=0.02s Sys=0.00s Real=0.01s
+[2024-03-11T08:33:57.596+0000][7][safepoint    ] Safepoint "G1CollectForAllocation", Time since last: 46164625 ns, Reaching safepoint: 120000 ns, At safepoint: 4770625 ns, Total: 4890625 ns
+[2024-03-11T08:33:57.621+0000][7][gc,start     ] GC(2) Pause Young (Concurrent Start) (Metadata GC Threshold)
+[2024-03-11T08:33:57.621+0000][7][gc,task      ] GC(2) Using 8 workers of 8 for evacuation
+[2024-03-11T08:33:57.621+0000][7][gc,age       ] GC(2) Desired survivor size 13631488 bytes, new threshold 15 (max threshold 15)
+[2024-03-11T08:33:57.623+0000][7][gc,age       ] GC(2) Age table with threshold 15 (max threshold 15)
+[2024-03-11T08:33:57.623+0000][7][gc,age       ] GC(2) - age   1:     112760 bytes,     112760 total
+[2024-03-11T08:33:57.623+0000][7][gc,age       ] GC(2) - age   2:    2539992 bytes,    2652752 total
+[2024-03-11T08:33:57.623+0000][7][gc,phases    ] GC(2)   Pre Evacuate Collection Set: 0.1ms
+[2024-03-11T08:33:57.623+0000][7][gc,phases    ] GC(2)   Merge Heap Roots: 0.1ms
+[2024-03-11T08:33:57.623+0000][7][gc,phases    ] GC(2)   Evacuate Collection Set: 1.4ms
+[2024-03-11T08:33:57.624+0000][7][gc,phases    ] GC(2)   Post Evacuate Collection Set: 0.3ms
+[2024-03-11T08:33:57.624+0000][7][gc,phases    ] GC(2)   Other: 0.8ms
+[2024-03-11T08:33:57.624+0000][7][gc,heap      ] GC(2) Eden regions: 3->0(304)
+[2024-03-11T08:33:57.624+0000][7][gc,heap      ] GC(2) Survivor regions: 3->3(26)
+[2024-03-11T08:33:57.624+0000][7][gc,heap      ] GC(2) Old regions: 4->4
+[2024-03-11T08:33:57.624+0000][7][gc,heap      ] GC(2) Archive regions: 0->0
+[2024-03-11T08:33:57.624+0000][7][gc,heap      ] GC(2) Humongous regions: 1->1
+[2024-03-11T08:33:57.624+0000][7][gc,metaspace ] GC(2) Metaspace: 20781K(21296K)->20781K(21296K) NonClass: 18553K(18864K)->18553K(18864K) Class: 2227K(2432K)->2227K(2432K)
+[2024-03-11T08:33:57.624+0000][7][gc           ] GC(2) Pause Young (Concurrent Start) (Metadata GC Threshold) 9M->6M(512M) 3.637ms
+[2024-03-11T08:33:57.624+0000][7][gc,cpu       ] GC(2) User=0.00s Sys=0.01s Real=0.01s
+[2024-03-11T08:33:57.624+0000][7][gc           ] GC(3) Concurrent Cycle
+[2024-03-11T08:33:57.624+0000][7][gc,marking   ] GC(3) Concurrent Clear Claimed Marks
+[2024-03-11T08:33:57.625+0000][7][safepoint    ] Safepoint "CollectForMetadataAllocation", Time since last: 24176708 ns, Reaching safepoint: 80209 ns, At safepoint: 3998666 ns, Total: 4078875 ns
+[2024-03-11T08:33:57.625+0000][7][gc,marking   ] GC(3) Concurrent Clear Claimed Marks 0.191ms
+[2024-03-11T08:33:57.625+0000][7][gc,marking   ] GC(3) Concurrent Scan Root Regions
+[2024-03-11T08:33:57.627+0000][7][gc,marking   ] GC(3) Concurrent Scan Root Regions 1.722ms
+[2024-03-11T08:33:57.627+0000][7][gc,marking   ] GC(3) Concurrent Mark (1.034s)
+[2024-03-11T08:33:57.627+0000][7][gc,marking   ] GC(3) Concurrent Mark From Roots
+[2024-03-11T08:33:57.627+0000][7][gc,task      ] GC(3) Using 2 workers of 2 for marking
+[2024-03-11T08:33:57.628+0000][7][gc,marking   ] GC(3) Concurrent Mark From Roots 1.500ms
+[2024-03-11T08:33:57.629+0000][7][gc,marking   ] GC(3) Concurrent Preclean
+[2024-03-11T08:33:57.629+0000][7][gc,marking   ] GC(3) Concurrent Preclean 0.223ms
+[2024-03-11T08:33:57.629+0000][7][gc,marking   ] GC(3) Concurrent Mark (1.034s, 1.036s) 2.137ms
+[2024-03-11T08:33:57.630+0000][7][gc,start     ] GC(3) Pause Remark
+[2024-03-11T08:33:57.632+0000][7][gc           ] GC(3) Pause Remark 7M->7M(512M) 1.662ms
+[2024-03-11T08:33:57.632+0000][7][gc,cpu       ] GC(3) User=0.01s Sys=0.00s Real=0.00s
+[2024-03-11T08:33:57.632+0000][7][safepoint    ] Safepoint "G1Concurrent", Time since last: 4797167 ns, Reaching safepoint: 965292 ns, At safepoint: 1866166 ns, Total: 2831458 ns
+[2024-03-11T08:33:57.632+0000][7][gc,marking   ] GC(3) Concurrent Rebuild Remembered Sets
+[2024-03-11T08:33:57.633+0000][7][gc,marking   ] GC(3) Concurrent Rebuild Remembered Sets 1.207ms
+[2024-03-11T08:33:57.634+0000][7][gc,start     ] GC(3) Pause Cleanup
+[2024-03-11T08:33:57.635+0000][7][gc           ] GC(3) Pause Cleanup 7M->7M(512M) 0.157ms
+[2024-03-11T08:33:57.635+0000][7][gc,cpu       ] GC(3) User=0.00s Sys=0.00s Real=0.00s
+[2024-03-11T08:33:57.635+0000][7][safepoint    ] Safepoint "G1Concurrent", Time since last: 1454667 ns, Reaching safepoint: 893542 ns, At safepoint: 348291 ns, Total: 1241833 ns
+[2024-03-11T08:33:57.635+0000][7][gc,marking   ] GC(3) Concurrent Cleanup for Next Mark
+[2024-03-11T08:33:57.635+0000][7][gc,marking   ] GC(3) Concurrent Cleanup for Next Mark 0.311ms
+[2024-03-11T08:33:57.635+0000][7][gc           ] GC(3) Concurrent Cycle 11.012ms
+[2024-03-11T08:33:57.828+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 193081042 ns, Reaching safepoint: 263584 ns, At safepoint: 7000 ns, Total: 270584 ns
+[2024-03-11T08:33:57.986+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 157508666 ns, Reaching safepoint: 158084 ns, At safepoint: 2875 ns, Total: 160959 ns
+[2024-03-11T08:33:58.070+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 84008000 ns, Reaching safepoint: 243625 ns, At safepoint: 9708 ns, Total: 253333 ns
+[2024-03-11T08:33:58.188+0000][7][gc,start     ] GC(4) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-03-11T08:33:58.189+0000][7][gc,task      ] GC(4) Using 8 workers of 8 for evacuation
+[2024-03-11T08:33:58.189+0000][7][gc,age       ] GC(4) Desired survivor size 20447232 bytes, new threshold 15 (max threshold 15)
+[2024-03-11T08:33:58.193+0000][7][gc,age       ] GC(4) Age table with threshold 15 (max threshold 15)
+[2024-03-11T08:33:58.194+0000][7][gc,age       ] GC(4) - age   1:    7669648 bytes,    7669648 total
+[2024-03-11T08:33:58.194+0000][7][gc,age       ] GC(4) - age   2:      57320 bytes,    7726968 total
+[2024-03-11T08:33:58.194+0000][7][gc,age       ] GC(4) - age   3:    2508376 bytes,   10235344 total
+[2024-03-11T08:33:58.194+0000][7][gc,phases    ] GC(4)   Pre Evacuate Collection Set: 0.1ms
+[2024-03-11T08:33:58.194+0000][7][gc,phases    ] GC(4)   Merge Heap Roots: 0.1ms
+[2024-03-11T08:33:58.194+0000][7][gc,phases    ] GC(4)   Evacuate Collection Set: 3.7ms
+[2024-03-11T08:33:58.194+0000][7][gc,phases    ] GC(4)   Post Evacuate Collection Set: 0.8ms
+[2024-03-11T08:33:58.194+0000][7][gc,phases    ] GC(4)   Other: 0.8ms
+[2024-03-11T08:33:58.194+0000][7][gc,heap      ] GC(4) Eden regions: 304->0(297)
+[2024-03-11T08:33:58.194+0000][7][gc,heap      ] GC(4) Survivor regions: 3->10(39)
+[2024-03-11T08:33:58.194+0000][7][gc,heap      ] GC(4) Old regions: 4->4
+[2024-03-11T08:33:58.194+0000][7][gc,heap      ] GC(4) Archive regions: 0->0
+[2024-03-11T08:33:58.195+0000][7][gc,heap      ] GC(4) Humongous regions: 2->1
+[2024-03-11T08:33:58.195+0000][7][gc,metaspace ] GC(4) Metaspace: 26341K(27516K)->26341K(27516K) NonClass: 23409K(24240K)->23409K(24240K) Class: 2932K(3276K)->2932K(3276K)
+[2024-03-11T08:33:58.195+0000][7][gc           ] GC(4) Pause Young (Normal) (G1 Evacuation Pause) 311M->14M(512M) 6.278ms
+[2024-03-11T08:33:58.195+0000][7][gc,cpu       ] GC(4) User=0.03s Sys=0.00s Real=0.01s
+[2024-03-11T08:33:58.195+0000][7][safepoint    ] Safepoint "G1CollectForAllocation", Time since last: 118112917 ns, Reaching safepoint: 136083 ns, At safepoint: 6473875 ns, Total: 6609958 ns
+[2024-03-11T08:33:58.196+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 326292 ns, Reaching safepoint: 1219208 ns, At safepoint: 38167 ns, Total: 1257375 ns
+[2024-03-11T08:33:58.197+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 230166 ns, Reaching safepoint: 604875 ns, At safepoint: 50209 ns, Total: 655084 ns
+[2024-03-11T08:33:58.198+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 1058958 ns, Reaching safepoint: 57875 ns, At safepoint: 31833 ns, Total: 89708 ns
+[2024-03-11T08:33:58.199+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 339500 ns, Reaching safepoint: 437834 ns, At safepoint: 24250 ns, Total: 462084 ns
+[2024-03-11T08:33:58.493+0000][7][gc,start     ] GC(5) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-03-11T08:33:58.493+0000][7][gc,task      ] GC(5) Using 8 workers of 8 for evacuation
+[2024-03-11T08:33:58.494+0000][7][gc,age       ] GC(5) Desired survivor size 20447232 bytes, new threshold 15 (max threshold 15)
+[2024-03-11T08:33:58.502+0000][7][gc,age       ] GC(5) Age table with threshold 15 (max threshold 15)
+[2024-03-11T08:33:58.502+0000][7][gc,age       ] GC(5) - age   1:    3154784 bytes,    3154784 total
+[2024-03-11T08:33:58.502+0000][7][gc,age       ] GC(5) - age   2:    5705440 bytes,    8860224 total
+[2024-03-11T08:33:58.502+0000][7][gc,age       ] GC(5) - age   3:      57320 bytes,    8917544 total
+[2024-03-11T08:33:58.502+0000][7][gc,age       ] GC(5) - age   4:    2508280 bytes,   11425824 total
+[2024-03-11T08:33:58.502+0000][7][gc,phases    ] GC(5)   Pre Evacuate Collection Set: 0.1ms
+[2024-03-11T08:33:58.502+0000][7][gc,phases    ] GC(5)   Merge Heap Roots: 0.2ms
+[2024-03-11T08:33:58.503+0000][7][gc,phases    ] GC(5)   Evacuate Collection Set: 7.2ms
+[2024-03-11T08:33:58.503+0000][7][gc,phases    ] GC(5)   Post Evacuate Collection Set: 0.5ms
+[2024-03-11T08:33:58.503+0000][7][gc,phases    ] GC(5)   Other: 1.5ms
+[2024-03-11T08:33:58.503+0000][7][gc,heap      ] GC(5) Eden regions: 297->0(295)
+[2024-03-11T08:33:58.503+0000][7][gc,heap      ] GC(5) Survivor regions: 10->12(39)
+[2024-03-11T08:33:58.503+0000][7][gc,heap      ] GC(5) Old regions: 4->4
+[2024-03-11T08:33:58.503+0000][7][gc,heap      ] GC(5) Archive regions: 0->0
+[2024-03-11T08:33:58.503+0000][7][gc,heap      ] GC(5) Humongous regions: 1->1
+[2024-03-11T08:33:58.503+0000][7][gc,metaspace ] GC(5) Metaspace: 28030K(29564K)->28030K(29564K) NonClass: 24905K(26032K)->24905K(26032K) Class: 3124K(3532K)->3124K(3532K)
+[2024-03-11T08:33:58.504+0000][7][gc           ] GC(5) Pause Young (Normal) (G1 Evacuation Pause) 311M->16M(512M) 10.669ms
+[2024-03-11T08:33:58.504+0000][7][gc,cpu       ] GC(5) User=0.04s Sys=0.00s Real=0.01s
+[2024-03-11T08:33:58.504+0000][7][safepoint    ] Safepoint "G1CollectForAllocation", Time since last: 293349917 ns, Reaching safepoint: 250791 ns, At safepoint: 10918625 ns, Total: 11169416 ns
+[2024-03-11T08:33:58.508+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 4120334 ns, Reaching safepoint: 181333 ns, At safepoint: 49417 ns, Total: 230750 ns
+[2024-03-11T08:33:58.509+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 405416 ns, Reaching safepoint: 723500 ns, At safepoint: 96167 ns, Total: 819667 ns
+[2024-03-11T08:33:58.694+0000][7][gc,start     ] GC(6) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-03-11T08:33:58.695+0000][7][gc,task      ] GC(6) Using 8 workers of 8 for evacuation
+[2024-03-11T08:33:58.695+0000][7][gc,age       ] GC(6) Desired survivor size 20447232 bytes, new threshold 15 (max threshold 15)
+[2024-03-11T08:33:58.702+0000][7][gc,age       ] GC(6) Age table with threshold 15 (max threshold 15)
+[2024-03-11T08:33:58.702+0000][7][gc,age       ] GC(6) - age   1:    2469248 bytes,    2469248 total
+[2024-03-11T08:33:58.702+0000][7][gc,age       ] GC(6) - age   2:    3111056 bytes,    5580304 total
+[2024-03-11T08:33:58.702+0000][7][gc,age       ] GC(6) - age   3:    5700928 bytes,   11281232 total
+[2024-03-11T08:33:58.702+0000][7][gc,age       ] GC(6) - age   4:      57320 bytes,   11338552 total
+[2024-03-11T08:33:58.703+0000][7][gc,age       ] GC(6) - age   5:    2508280 bytes,   13846832 total
+[2024-03-11T08:33:58.703+0000][7][gc,phases    ] GC(6)   Pre Evacuate Collection Set: 0.1ms
+[2024-03-11T08:33:58.703+0000][7][gc,phases    ] GC(6)   Merge Heap Roots: 0.1ms
+[2024-03-11T08:33:58.703+0000][7][gc,phases    ] GC(6)   Evacuate Collection Set: 5.4ms
+[2024-03-11T08:33:58.703+0000][7][gc,phases    ] GC(6)   Post Evacuate Collection Set: 0.7ms
+[2024-03-11T08:33:58.703+0000][7][gc,phases    ] GC(6)   Other: 2.1ms
+[2024-03-11T08:33:58.703+0000][7][gc,heap      ] GC(6) Eden regions: 295->0(293)
+[2024-03-11T08:33:58.703+0000][7][gc,heap      ] GC(6) Survivor regions: 12->14(39)
+[2024-03-11T08:33:58.703+0000][7][gc,heap      ] GC(6) Old regions: 4->4
+[2024-03-11T08:33:58.704+0000][7][gc,heap      ] GC(6) Archive regions: 0->0
+[2024-03-11T08:33:58.704+0000][7][gc,heap      ] GC(6) Humongous regions: 1->1
+[2024-03-11T08:33:58.704+0000][7][gc,metaspace ] GC(6) Metaspace: 28386K(29948K)->28386K(29948K) NonClass: 25196K(26288K)->25196K(26288K) Class: 3189K(3660K)->3189K(3660K)
+[2024-03-11T08:33:58.704+0000][7][gc           ] GC(6) Pause Young (Normal) (G1 Evacuation Pause) 311M->18M(512M) 9.579ms
+[2024-03-11T08:33:58.704+0000][7][gc,cpu       ] GC(6) User=0.03s Sys=0.00s Real=0.00s
+[2024-03-11T08:33:58.704+0000][7][safepoint    ] Safepoint "G1CollectForAllocation", Time since last: 184524625 ns, Reaching safepoint: 302417 ns, At safepoint: 9814791 ns, Total: 10117208 ns
+[2024-03-11T08:33:58.909+0000][7][gc,start     ] GC(7) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-03-11T08:33:58.909+0000][7][gc,task      ] GC(7) Using 8 workers of 8 for evacuation
+[2024-03-11T08:33:58.909+0000][7][gc,age       ] GC(7) Desired survivor size 20447232 bytes, new threshold 15 (max threshold 15)
+[2024-03-11T08:33:58.914+0000][7][gc,age       ] GC(7) Age table with threshold 15 (max threshold 15)
+[2024-03-11T08:33:58.916+0000][7][gc,age       ] GC(7) - age   1:    2959736 bytes,    2959736 total
+[2024-03-11T08:33:58.916+0000][7][gc,age       ] GC(7) - age   2:     507296 bytes,    3467032 total
+[2024-03-11T08:33:58.916+0000][7][gc,age       ] GC(7) - age   3:    3110016 bytes,    6577048 total
+[2024-03-11T08:33:58.916+0000][7][gc,age       ] GC(7) - age   4:    5700424 bytes,   12277472 total
+[2024-03-11T08:33:58.916+0000][7][gc,age       ] GC(7) - age   5:      57320 bytes,   12334792 total
+[2024-03-11T08:33:58.916+0000][7][gc,age       ] GC(7) - age   6:    2508280 bytes,   14843072 total
+[2024-03-11T08:33:58.916+0000][7][gc,phases    ] GC(7)   Pre Evacuate Collection Set: 0.1ms
+[2024-03-11T08:33:58.916+0000][7][gc,phases    ] GC(7)   Merge Heap Roots: 0.1ms
+[2024-03-11T08:33:58.916+0000][7][gc,phases    ] GC(7)   Evacuate Collection Set: 4.4ms
+[2024-03-11T08:33:58.916+0000][7][gc,phases    ] GC(7)   Post Evacuate Collection Set: 0.7ms
+[2024-03-11T08:33:58.917+0000][7][gc,phases    ] GC(7)   Other: 2.1ms
+[2024-03-11T08:33:58.917+0000][7][gc,heap      ] GC(7) Eden regions: 293->0(291)
+[2024-03-11T08:33:58.917+0000][7][gc,heap      ] GC(7) Survivor regions: 14->16(39)
+[2024-03-11T08:33:58.917+0000][7][gc,heap      ] GC(7) Old regions: 4->4
+[2024-03-11T08:33:58.918+0000][7][gc,heap      ] GC(7) Archive regions: 0->0
+[2024-03-11T08:33:58.918+0000][7][gc,heap      ] GC(7) Humongous regions: 1->1
+[2024-03-11T08:33:58.918+0000][7][gc,metaspace ] GC(7) Metaspace: 28904K(30716K)->28904K(30716K) NonClass: 25634K(27056K)->25634K(27056K) Class: 3269K(3660K)->3269K(3660K)
+[2024-03-11T08:33:58.918+0000][7][gc           ] GC(7) Pause Young (Normal) (G1 Evacuation Pause) 311M->19M(512M) 9.330ms
+[2024-03-11T08:33:58.918+0000][7][gc,cpu       ] GC(7) User=0.03s Sys=0.00s Real=0.01s
+[2024-03-11T08:33:58.918+0000][7][safepoint    ] Safepoint "G1CollectForAllocation", Time since last: 204653084 ns, Reaching safepoint: 120291 ns, At safepoint: 9555292 ns, Total: 9675583 ns
+[2024-03-11T08:33:59.040+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 121799292 ns, Reaching safepoint: 210958 ns, At safepoint: 8500 ns, Total: 219458 ns
+[2024-03-11T08:33:59.190+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 149439959 ns, Reaching safepoint: 149458 ns, At safepoint: 3208 ns, Total: 152666 ns
+[2024-03-11T08:33:59.252+0000][7][gc,start     ] GC(8) Pause Young (Concurrent Start) (Metadata GC Threshold)
+[2024-03-11T08:33:59.253+0000][7][gc,task      ] GC(8) Using 8 workers of 8 for evacuation
+[2024-03-11T08:33:59.253+0000][7][gc,age       ] GC(8) Desired survivor size 20447232 bytes, new threshold 15 (max threshold 15)
+[2024-03-11T08:33:59.258+0000][7][gc,age       ] GC(8) Age table with threshold 15 (max threshold 15)
+[2024-03-11T08:33:59.258+0000][7][gc,age       ] GC(8) - age   1:    1863208 bytes,    1863208 total
+[2024-03-11T08:33:59.258+0000][7][gc,age       ] GC(8) - age   2:    2106112 bytes,    3969320 total
+[2024-03-11T08:33:59.258+0000][7][gc,age       ] GC(8) - age   3:     498104 bytes,    4467424 total
+[2024-03-11T08:33:59.259+0000][7][gc,age       ] GC(8) - age   4:    3096064 bytes,    7563488 total
+[2024-03-11T08:33:59.259+0000][7][gc,age       ] GC(8) - age   5:    5647272 bytes,   13210760 total
+[2024-03-11T08:33:59.259+0000][7][gc,age       ] GC(8) - age   6:      57128 bytes,   13267888 total
+[2024-03-11T08:33:59.259+0000][7][gc,age       ] GC(8) - age   7:    2502976 bytes,   15770864 total
+[2024-03-11T08:33:59.259+0000][7][gc,phases    ] GC(8)   Pre Evacuate Collection Set: 0.2ms
+[2024-03-11T08:33:59.259+0000][7][gc,phases    ] GC(8)   Merge Heap Roots: 0.0ms
+[2024-03-11T08:33:59.259+0000][7][gc,phases    ] GC(8)   Evacuate Collection Set: 4.3ms
+[2024-03-11T08:33:59.259+0000][7][gc,phases    ] GC(8)   Post Evacuate Collection Set: 0.6ms
+[2024-03-11T08:33:59.259+0000][7][gc,phases    ] GC(8)   Other: 1.5ms
+[2024-03-11T08:33:59.259+0000][7][gc,heap      ] GC(8) Eden regions: 248->0(290)
+[2024-03-11T08:33:59.259+0000][7][gc,heap      ] GC(8) Survivor regions: 16->17(39)
+[2024-03-11T08:33:59.259+0000][7][gc,heap      ] GC(8) Old regions: 4->4
+[2024-03-11T08:33:59.259+0000][7][gc,heap      ] GC(8) Archive regions: 0->0
+[2024-03-11T08:33:59.260+0000][7][gc,heap      ] GC(8) Humongous regions: 1->1
+[2024-03-11T08:33:59.260+0000][7][gc,metaspace ] GC(8) Metaspace: 33761K(35964K)->33761K(35964K) NonClass: 29844K(31408K)->29844K(31408K) Class: 3917K(4556K)->3917K(4556K)
+[2024-03-11T08:33:59.260+0000][7][gc           ] GC(8) Pause Young (Concurrent Start) (Metadata GC Threshold) 266M->21M(512M) 7.379ms
+[2024-03-11T08:33:59.260+0000][7][gc,cpu       ] GC(8) User=0.02s Sys=0.00s Real=0.01s
+[2024-03-11T08:33:59.260+0000][7][gc           ] GC(9) Concurrent Cycle
+[2024-03-11T08:33:59.260+0000][7][gc,marking   ] GC(9) Concurrent Clear Claimed Marks
+[2024-03-11T08:33:59.260+0000][7][safepoint    ] Safepoint "CollectForMetadataAllocation", Time since last: 61202250 ns, Reaching safepoint: 1134667 ns, At safepoint: 7672417 ns, Total: 8807084 ns
+[2024-03-11T08:33:59.260+0000][7][gc,marking   ] GC(9) Concurrent Clear Claimed Marks 0.214ms
+[2024-03-11T08:33:59.261+0000][7][gc,marking   ] GC(9) Concurrent Scan Root Regions
+[2024-03-11T08:33:59.263+0000][7][gc,marking   ] GC(9) Concurrent Scan Root Regions 2.357ms
+[2024-03-11T08:33:59.263+0000][7][gc,marking   ] GC(9) Concurrent Mark (2.670s)
+[2024-03-11T08:33:59.264+0000][7][gc,marking   ] GC(9) Concurrent Mark From Roots
+[2024-03-11T08:33:59.264+0000][7][gc,task      ] GC(9) Using 2 workers of 2 for marking
+[2024-03-11T08:33:59.265+0000][7][gc,marking   ] GC(9) Concurrent Mark From Roots 1.891ms
+[2024-03-11T08:33:59.266+0000][7][gc,marking   ] GC(9) Concurrent Preclean
+[2024-03-11T08:33:59.266+0000][7][gc,marking   ] GC(9) Concurrent Preclean 0.355ms
+[2024-03-11T08:33:59.266+0000][7][gc,marking   ] GC(9) Concurrent Mark (2.670s, 2.673s) 2.948ms
+[2024-03-11T08:33:59.269+0000][7][gc,start     ] GC(9) Pause Remark
+[2024-03-11T08:33:59.270+0000][7][gc           ] GC(9) Pause Remark 22M->22M(512M) 1.401ms
+[2024-03-11T08:33:59.270+0000][7][gc,cpu       ] GC(9) User=0.00s Sys=0.00s Real=0.00s
+[2024-03-11T08:33:59.270+0000][7][safepoint    ] Safepoint "G1Concurrent", Time since last: 7330208 ns, Reaching safepoint: 1262792 ns, At safepoint: 1663875 ns, Total: 2926667 ns
+[2024-03-11T08:33:59.270+0000][7][gc,marking   ] GC(9) Concurrent Rebuild Remembered Sets
+[2024-03-11T08:33:59.272+0000][7][gc,marking   ] GC(9) Concurrent Rebuild Remembered Sets 1.370ms
+[2024-03-11T08:33:59.272+0000][7][gc,start     ] GC(9) Pause Cleanup
+[2024-03-11T08:33:59.273+0000][7][gc           ] GC(9) Pause Cleanup 22M->22M(512M) 0.223ms
+[2024-03-11T08:33:59.273+0000][7][gc,cpu       ] GC(9) User=0.00s Sys=0.00s Real=0.00s
+[2024-03-11T08:33:59.273+0000][7][safepoint    ] Safepoint "G1Concurrent", Time since last: 1673958 ns, Reaching safepoint: 505708 ns, At safepoint: 441292 ns, Total: 947000 ns
+[2024-03-11T08:33:59.273+0000][7][gc,marking   ] GC(9) Concurrent Cleanup for Next Mark
+[2024-03-11T08:33:59.274+0000][7][gc,marking   ] GC(9) Concurrent Cleanup for Next Mark 0.665ms
+[2024-03-11T08:33:59.274+0000][7][gc           ] GC(9) Concurrent Cycle 14.560ms
+[2024-03-11T08:33:59.499+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 224549958 ns, Reaching safepoint: 1263750 ns, At safepoint: 17500 ns, Total: 1281250 ns
+[2024-03-11T08:33:59.735+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 236088209 ns, Reaching safepoint: 155458 ns, At safepoint: 3458 ns, Total: 158916 ns
+[2024-03-11T08:33:59.993+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 257930251 ns, Reaching safepoint: 511208 ns, At safepoint: 3000 ns, Total: 514208 ns
+[2024-03-11T08:34:00.129+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 135285917 ns, Reaching safepoint: 170291 ns, At safepoint: 6834 ns, Total: 177125 ns
+[2024-03-11T08:34:00.152+0000][7][gc,start     ] GC(10) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-03-11T08:34:00.155+0000][7][gc,task      ] GC(10) Using 8 workers of 8 for evacuation
+[2024-03-11T08:34:00.155+0000][7][gc,age       ] GC(10) Desired survivor size 20447232 bytes, new threshold 15 (max threshold 15)
+[2024-03-11T08:34:00.174+0000][7][gc,age       ] GC(10) Age table with threshold 15 (max threshold 15)
+[2024-03-11T08:34:00.175+0000][7][gc,age       ] GC(10) - age   1:   24850872 bytes,   24850872 total
+[2024-03-11T08:34:00.175+0000][7][gc,age       ] GC(10) - age   2:    1792016 bytes,   26642888 total
+[2024-03-11T08:34:00.175+0000][7][gc,age       ] GC(10) - age   3:    2102600 bytes,   28745488 total
+[2024-03-11T08:34:00.175+0000][7][gc,age       ] GC(10) - age   4:     491592 bytes,   29237080 total
+[2024-03-11T08:34:00.175+0000][7][gc,age       ] GC(10) - age   5:    3084024 bytes,   32321104 total
+[2024-03-11T08:34:00.175+0000][7][gc,age       ] GC(10) - age   6:    5604408 bytes,   37925512 total
+[2024-03-11T08:34:00.175+0000][7][gc,age       ] GC(10) - age   7:      56648 bytes,   37982160 total
+[2024-03-11T08:34:00.175+0000][7][gc,age       ] GC(10) - age   8:    2493072 bytes,   40475232 total
+[2024-03-11T08:34:00.175+0000][7][gc,phases    ] GC(10)   Pre Evacuate Collection Set: 0.1ms
+[2024-03-11T08:34:00.175+0000][7][gc,phases    ] GC(10)   Merge Heap Roots: 1.1ms
+[2024-03-11T08:34:00.175+0000][7][gc,phases    ] GC(10)   Evacuate Collection Set: 17.0ms
+[2024-03-11T08:34:00.176+0000][7][gc,phases    ] GC(10)   Post Evacuate Collection Set: 1.0ms
+[2024-03-11T08:34:00.176+0000][7][gc,phases    ] GC(10)   Other: 4.6ms
+[2024-03-11T08:34:00.176+0000][7][gc,heap      ] GC(10) Eden regions: 290->0(268)
+[2024-03-11T08:34:00.176+0000][7][gc,heap      ] GC(10) Survivor regions: 17->39(39)
+[2024-03-11T08:34:00.176+0000][7][gc,heap      ] GC(10) Old regions: 4->9
+[2024-03-11T08:34:00.176+0000][7][gc,heap      ] GC(10) Archive regions: 0->0
+[2024-03-11T08:34:00.176+0000][7][gc,heap      ] GC(10) Humongous regions: 1->1
+[2024-03-11T08:34:00.176+0000][7][gc,metaspace ] GC(10) Metaspace: 44031K(47484K)->44031K(47484K) NonClass: 38685K(41136K)->38685K(41136K) Class: 5346K(6348K)->5346K(6348K)
+[2024-03-11T08:34:00.176+0000][7][gc           ] GC(10) Pause Young (Normal) (G1 Evacuation Pause) 311M->48M(512M) 24.656ms
+[2024-03-11T08:34:00.176+0000][7][gc,cpu       ] GC(10) User=0.12s Sys=0.00s Real=0.03s
+[2024-03-11T08:34:00.176+0000][7][safepoint    ] Safepoint "G1CollectForAllocation", Time since last: 22640791 ns, Reaching safepoint: 94209 ns, At safepoint: 24847416 ns, Total: 24941625 ns
+[2024-03-11T08:34:00.285+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 108579375 ns, Reaching safepoint: 218042 ns, At safepoint: 6833 ns, Total: 224875 ns
+[2024-03-11T08:34:00.663+0000][7][gc,start     ] GC(11) Pause Young (Concurrent Start) (Metadata GC Threshold)
+[2024-03-11T08:34:00.664+0000][7][gc,task      ] GC(11) Using 8 workers of 8 for evacuation
+[2024-03-11T08:34:00.664+0000][7][gc,age       ] GC(11) Desired survivor size 20447232 bytes, new threshold 1 (max threshold 15)
+[2024-03-11T08:34:00.679+0000][7][gc,age       ] GC(11) Age table with threshold 1 (max threshold 15)
+[2024-03-11T08:34:00.679+0000][7][gc,age       ] GC(11) - age   1:    4430512 bytes,    4430512 total
+[2024-03-11T08:34:00.679+0000][7][gc,phases    ] GC(11)   Pre Evacuate Collection Set: 0.5ms
+[2024-03-11T08:34:00.679+0000][7][gc,phases    ] GC(11)   Merge Heap Roots: 0.2ms
+[2024-03-11T08:34:00.679+0000][7][gc,phases    ] GC(11)   Evacuate Collection Set: 13.2ms
+[2024-03-11T08:34:00.679+0000][7][gc,phases    ] GC(11)   Post Evacuate Collection Set: 1.0ms
+[2024-03-11T08:34:00.680+0000][7][gc,phases    ] GC(11)   Other: 1.1ms
+[2024-03-11T08:34:00.680+0000][7][gc,heap      ] GC(11) Eden regions: 167->0(291)
+[2024-03-11T08:34:00.680+0000][7][gc,heap      ] GC(11) Survivor regions: 39->7(39)
+[2024-03-11T08:34:00.680+0000][7][gc,heap      ] GC(11) Old regions: 9->49
+[2024-03-11T08:34:00.680+0000][7][gc,heap      ] GC(11) Archive regions: 0->0
+[2024-03-11T08:34:00.680+0000][7][gc,heap      ] GC(11) Humongous regions: 1->1
+[2024-03-11T08:34:00.680+0000][7][gc,metaspace ] GC(11) Metaspace: 55780K(60284K)->55780K(60284K) NonClass: 48607K(51376K)->48607K(51376K) Class: 7173K(8908K)->7173K(8908K)
+[2024-03-11T08:34:00.680+0000][7][gc           ] GC(11) Pause Young (Concurrent Start) (Metadata GC Threshold) 215M->56M(512M) 16.833ms
+[2024-03-11T08:34:00.680+0000][7][gc,cpu       ] GC(11) User=0.10s Sys=0.00s Real=0.02s
+[2024-03-11T08:34:00.680+0000][7][gc           ] GC(12) Concurrent Cycle
+[2024-03-11T08:34:00.681+0000][7][gc,marking   ] GC(12) Concurrent Clear Claimed Marks
+[2024-03-11T08:34:00.681+0000][7][safepoint    ] Safepoint "CollectForMetadataAllocation", Time since last: 378341125 ns, Reaching safepoint: 204916 ns, At safepoint: 17263375 ns, Total: 17468291 ns
+[2024-03-11T08:34:00.681+0000][7][gc,marking   ] GC(12) Concurrent Clear Claimed Marks 0.720ms
+[2024-03-11T08:34:00.682+0000][7][gc,marking   ] GC(12) Concurrent Scan Root Regions
+[2024-03-11T08:34:00.691+0000][7][gc,marking   ] GC(12) Concurrent Scan Root Regions 8.259ms
+[2024-03-11T08:34:00.691+0000][7][gc,marking   ] GC(12) Concurrent Mark (4.098s)
+[2024-03-11T08:34:00.691+0000][7][gc,marking   ] GC(12) Concurrent Mark From Roots
+[2024-03-11T08:34:00.691+0000][7][gc,task      ] GC(12) Using 2 workers of 2 for marking
+[2024-03-11T08:34:00.693+0000][7][safepoint    ] Safepoint "CollectForMetadataAllocation", Time since last: 12517000 ns, Reaching safepoint: 60542 ns, At safepoint: 72833 ns, Total: 133375 ns
+[2024-03-11T08:34:00.696+0000][7][gc,marking   ] GC(12) Concurrent Mark From Roots 4.677ms
+[2024-03-11T08:34:00.696+0000][7][gc,marking   ] GC(12) Concurrent Preclean
+[2024-03-11T08:34:00.696+0000][7][gc,marking   ] GC(12) Concurrent Preclean 0.132ms
+[2024-03-11T08:34:00.696+0000][7][gc,marking   ] GC(12) Concurrent Mark (4.098s, 4.104s) 5.222ms
+[2024-03-11T08:34:00.697+0000][7][gc,start     ] GC(12) Pause Remark
+[2024-03-11T08:34:00.699+0000][7][gc           ] GC(12) Pause Remark 59M->59M(512M) 1.914ms
+[2024-03-11T08:34:00.699+0000][7][gc,cpu       ] GC(12) User=0.01s Sys=0.00s Real=0.00s
+[2024-03-11T08:34:00.699+0000][7][safepoint    ] Safepoint "G1Concurrent", Time since last: 2890042 ns, Reaching safepoint: 738750 ns, At safepoint: 2152458 ns, Total: 2891208 ns
+[2024-03-11T08:34:00.699+0000][7][gc,marking   ] GC(12) Concurrent Rebuild Remembered Sets
+[2024-03-11T08:34:00.712+0000][7][gc,marking   ] GC(12) Concurrent Rebuild Remembered Sets 12.419ms
+[2024-03-11T08:34:00.714+0000][7][gc,start     ] GC(12) Pause Cleanup
+[2024-03-11T08:34:00.714+0000][7][gc           ] GC(12) Pause Cleanup 62M->62M(512M) 0.313ms
+[2024-03-11T08:34:00.714+0000][7][gc,cpu       ] GC(12) User=0.01s Sys=0.00s Real=0.01s
+[2024-03-11T08:34:00.714+0000][7][safepoint    ] Safepoint "G1Concurrent", Time since last: 12951417 ns, Reaching safepoint: 1695542 ns, At safepoint: 555916 ns, Total: 2251458 ns
+[2024-03-11T08:34:00.715+0000][7][gc,marking   ] GC(12) Concurrent Cleanup for Next Mark
+[2024-03-11T08:34:00.715+0000][7][gc,marking   ] GC(12) Concurrent Cleanup for Next Mark 0.698ms
+[2024-03-11T08:34:00.716+0000][7][gc           ] GC(12) Concurrent Cycle 35.315ms
+[2024-03-11T08:34:00.804+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 89294792 ns, Reaching safepoint: 178125 ns, At safepoint: 2708 ns, Total: 180833 ns
+[2024-03-11T08:34:00.852+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 48379334 ns, Reaching safepoint: 159541 ns, At safepoint: 29959 ns, Total: 189500 ns
+[2024-03-11T08:34:00.860+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 7700666 ns, Reaching safepoint: 101334 ns, At safepoint: 39750 ns, Total: 141084 ns
+[2024-03-11T08:34:00.873+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 12930291 ns, Reaching safepoint: 63375 ns, At safepoint: 28417 ns, Total: 91792 ns
+[2024-03-11T08:34:01.381+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 507528334 ns, Reaching safepoint: 538916 ns, At safepoint: 16167 ns, Total: 555083 ns
+[2024-03-11T08:34:01.438+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 56236458 ns, Reaching safepoint: 446334 ns, At safepoint: 17250 ns, Total: 463584 ns
+[2024-03-11T08:34:01.446+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 7833750 ns, Reaching safepoint: 237375 ns, At safepoint: 16041 ns, Total: 253416 ns
+[2024-03-11T08:34:01.573+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 125774542 ns, Reaching safepoint: 1239375 ns, At safepoint: 16417 ns, Total: 1255792 ns
+[2024-03-11T08:34:01.646+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 72075875 ns, Reaching safepoint: 560541 ns, At safepoint: 53542 ns, Total: 614083 ns
+[2024-03-11T08:34:02.109+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 461883792 ns, Reaching safepoint: 943125 ns, At safepoint: 11667 ns, Total: 954792 ns
+[2024-03-11T08:34:02.269+0000][7][gc,start     ] GC(13) Pause Young (Concurrent Start) (G1 Evacuation Pause)
+[2024-03-11T08:34:02.270+0000][7][gc,task      ] GC(13) Using 8 workers of 8 for evacuation
+[2024-03-11T08:34:02.270+0000][7][gc,age       ] GC(13) Desired survivor size 19922944 bytes, new threshold 15 (max threshold 15)
+[2024-03-11T08:34:02.283+0000][7][gc,age       ] GC(13) Age table with threshold 15 (max threshold 15)
+[2024-03-11T08:34:02.284+0000][7][gc,age       ] GC(13) - age   1:   10328800 bytes,   10328800 total
+[2024-03-11T08:34:02.284+0000][7][gc,age       ] GC(13) - age   2:    4228440 bytes,   14557240 total
+[2024-03-11T08:34:02.284+0000][7][gc,phases    ] GC(13)   Pre Evacuate Collection Set: 0.7ms
+[2024-03-11T08:34:02.284+0000][7][gc,phases    ] GC(13)   Merge Heap Roots: 0.1ms
+[2024-03-11T08:34:02.284+0000][7][gc,phases    ] GC(13)   Evacuate Collection Set: 9.3ms
+[2024-03-11T08:34:02.284+0000][7][gc,phases    ] GC(13)   Post Evacuate Collection Set: 1.6ms
+[2024-03-11T08:34:02.284+0000][7][gc,phases    ] GC(13)   Other: 2.8ms
+[2024-03-11T08:34:02.284+0000][7][gc,heap      ] GC(13) Eden regions: 291->0(284)
+[2024-03-11T08:34:02.285+0000][7][gc,heap      ] GC(13) Survivor regions: 7->15(38)
+[2024-03-11T08:34:02.285+0000][7][gc,heap      ] GC(13) Old regions: 49->49
+[2024-03-11T08:34:02.285+0000][7][gc,heap      ] GC(13) Archive regions: 0->0
+[2024-03-11T08:34:02.285+0000][7][gc,heap      ] GC(13) Humongous regions: 1->1
+[2024-03-11T08:34:02.285+0000][7][gc,metaspace ] GC(13) Metaspace: 78569K(84764K)->78569K(84764K) NonClass: 68256K(72016K)->68256K(72016K) Class: 10313K(12748K)->10313K(12748K)
+[2024-03-11T08:34:02.285+0000][7][gc           ] GC(13) Pause Young (Concurrent Start) (G1 Evacuation Pause) 347M->64M(512M) 15.707ms
+[2024-03-11T08:34:02.285+0000][7][gc,cpu       ] GC(13) User=0.07s Sys=0.00s Real=0.02s
+[2024-03-11T08:34:02.285+0000][7][gc           ] GC(14) Concurrent Cycle
+[2024-03-11T08:34:02.285+0000][7][safepoint    ] Safepoint "G1CollectForAllocation", Time since last: 160283833 ns, Reaching safepoint: 164958 ns, At safepoint: 16416917 ns, Total: 16581875 ns
+[2024-03-11T08:34:02.290+0000][7][gc,marking   ] GC(14) Concurrent Clear Claimed Marks
+[2024-03-11T08:34:02.291+0000][7][gc,marking   ] GC(14) Concurrent Clear Claimed Marks 1.372ms
+[2024-03-11T08:34:02.293+0000][7][gc,marking   ] GC(14) Concurrent Scan Root Regions
+[2024-03-11T08:34:02.295+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 9200458 ns, Reaching safepoint: 281417 ns, At safepoint: 115333 ns, Total: 396750 ns
+[2024-03-11T08:34:02.298+0000][7][gc,marking   ] GC(14) Concurrent Scan Root Regions 5.564ms
+[2024-03-11T08:34:02.299+0000][7][gc,marking   ] GC(14) Concurrent Mark (5.706s)
+[2024-03-11T08:34:02.299+0000][7][gc,marking   ] GC(14) Concurrent Mark From Roots
+[2024-03-11T08:34:02.299+0000][7][gc,task      ] GC(14) Using 2 workers of 2 for marking
+[2024-03-11T08:34:02.333+0000][7][gc,marking   ] GC(14) Concurrent Mark From Roots 33.773ms
+[2024-03-11T08:34:02.333+0000][7][gc,marking   ] GC(14) Concurrent Preclean
+[2024-03-11T08:34:02.334+0000][7][gc,marking   ] GC(14) Concurrent Preclean 0.674ms
+[2024-03-11T08:34:02.334+0000][7][gc,marking   ] GC(14) Concurrent Mark (5.706s, 5.742s) 35.436ms
+[2024-03-11T08:34:02.336+0000][7][gc,start     ] GC(14) Pause Remark
+[2024-03-11T08:34:02.339+0000][7][gc           ] GC(14) Pause Remark 70M->70M(512M) 3.024ms
+[2024-03-11T08:34:02.339+0000][7][gc,cpu       ] GC(14) User=0.02s Sys=0.00s Real=0.00s
+[2024-03-11T08:34:02.339+0000][7][safepoint    ] Safepoint "G1Concurrent", Time since last: 39868167 ns, Reaching safepoint: 1026375 ns, At safepoint: 3317583 ns, Total: 4343958 ns
+[2024-03-11T08:34:02.342+0000][7][gc,marking   ] GC(14) Concurrent Rebuild Remembered Sets
+[2024-03-11T08:34:02.391+0000][7][gc,marking   ] GC(14) Concurrent Rebuild Remembered Sets 48.600ms
+[2024-03-11T08:34:02.393+0000][7][gc,start     ] GC(14) Pause Cleanup
+[2024-03-11T08:34:02.394+0000][7][gc           ] GC(14) Pause Cleanup 73M->73M(512M) 1.426ms
+[2024-03-11T08:34:02.394+0000][7][gc,cpu       ] GC(14) User=0.00s Sys=0.00s Real=0.01s
+[2024-03-11T08:34:02.394+0000][7][safepoint    ] Safepoint "G1Concurrent", Time since last: 52246625 ns, Reaching safepoint: 1003000 ns, At safepoint: 1695209 ns, Total: 2698209 ns
+[2024-03-11T08:34:02.396+0000][7][gc,marking   ] GC(14) Concurrent Cleanup for Next Mark
+[2024-03-11T08:34:02.397+0000][7][gc,marking   ] GC(14) Concurrent Cleanup for Next Mark 0.980ms
+[2024-03-11T08:34:02.398+0000][7][gc           ] GC(14) Concurrent Cycle 112.926ms
+[2024-03-11T08:34:02.646+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 251328042 ns, Reaching safepoint: 124250 ns, At safepoint: 3500 ns, Total: 127750 ns
+[2024-03-11T08:34:02.828+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 182450791 ns, Reaching safepoint: 133667 ns, At safepoint: 3042 ns, Total: 136709 ns
+[2024-03-11T08:34:02.949+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 119482291 ns, Reaching safepoint: 1194417 ns, At safepoint: 98875 ns, Total: 1293292 ns
+[2024-03-11T08:34:03.033+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 83902417 ns, Reaching safepoint: 221041 ns, At safepoint: 13542 ns, Total: 234583 ns
+[2024-03-11T08:34:03.230+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 196160417 ns, Reaching safepoint: 272083 ns, At safepoint: 12459 ns, Total: 284542 ns
+[2024-03-11T08:34:03.244+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 13531416 ns, Reaching safepoint: 174000 ns, At safepoint: 263750 ns, Total: 437750 ns
+[2024-03-11T08:34:03.251+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 7635750 ns, Reaching safepoint: 154625 ns, At safepoint: 72167 ns, Total: 226792 ns
+[2024-03-11T08:34:03.548+0000][7][safepoint    ] Safepoint "ICBufferFull", Time since last: 295354792 ns, Reaching safepoint: 1150500 ns, At safepoint: 16333 ns, Total: 1166833 ns
+[2024-03-11T08:34:05.505+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1956078209 ns, Reaching safepoint: 927875 ns, At safepoint: 15375 ns, Total: 943250 ns
+[2024-03-11T08:34:06.760+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1255259501 ns, Reaching safepoint: 149083 ns, At safepoint: 3167 ns, Total: 152250 ns
+[2024-03-11T08:34:07.765+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1004828334 ns, Reaching safepoint: 197083 ns, At safepoint: 4875 ns, Total: 201958 ns
+[2024-03-11T08:34:08.769+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1003680209 ns, Reaching safepoint: 320791 ns, At safepoint: 10500 ns, Total: 331291 ns
+[2024-03-11T08:34:09.771+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1001401084 ns, Reaching safepoint: 225834 ns, At safepoint: 7625 ns, Total: 233459 ns
+[2024-03-11T08:34:10.773+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1001759917 ns, Reaching safepoint: 341583 ns, At safepoint: 9167 ns, Total: 350750 ns
+[2024-03-11T08:34:11.774+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1000987417 ns, Reaching safepoint: 191917 ns, At safepoint: 5208 ns, Total: 197125 ns
+[2024-03-11T08:34:12.779+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1004711334 ns, Reaching safepoint: 318958 ns, At safepoint: 5792 ns, Total: 324750 ns
+[2024-03-11T08:34:13.786+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1006441875 ns, Reaching safepoint: 210834 ns, At safepoint: 5958 ns, Total: 216792 ns
+[2024-03-11T08:34:14.792+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1005285417 ns, Reaching safepoint: 396167 ns, At safepoint: 12000 ns, Total: 408167 ns
+[2024-03-11T08:34:15.794+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1002039917 ns, Reaching safepoint: 294500 ns, At safepoint: 8750 ns, Total: 303250 ns
+[2024-03-11T08:34:16.801+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1006818292 ns, Reaching safepoint: 203083 ns, At safepoint: 5959 ns, Total: 209042 ns
+[2024-03-11T08:34:17.807+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1005862000 ns, Reaching safepoint: 165792 ns, At safepoint: 3666 ns, Total: 169458 ns
+[2024-03-11T08:34:18.809+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1000817251 ns, Reaching safepoint: 564042 ns, At safepoint: 12375 ns, Total: 576417 ns
+[2024-03-11T08:34:19.815+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1005768375 ns, Reaching safepoint: 241625 ns, At safepoint: 5875 ns, Total: 247500 ns
+[2024-03-11T08:34:20.821+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1006375417 ns, Reaching safepoint: 328834 ns, At safepoint: 7041 ns, Total: 335875 ns
+[2024-03-11T08:34:21.823+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1001504251 ns, Reaching safepoint: 323875 ns, At safepoint: 9083 ns, Total: 332958 ns
+[2024-03-11T08:34:22.826+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1002413792 ns, Reaching safepoint: 341875 ns, At safepoint: 9417 ns, Total: 351292 ns
+[2024-03-11T08:34:23.832+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1005735875 ns, Reaching safepoint: 293625 ns, At safepoint: 5042 ns, Total: 298667 ns
+[2024-03-11T08:34:24.833+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1001099709 ns, Reaching safepoint: 307458 ns, At safepoint: 7083 ns, Total: 314541 ns
+[2024-03-11T08:34:25.837+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1001689376 ns, Reaching safepoint: 1765917 ns, At safepoint: 14916 ns, Total: 1780833 ns
+[2024-03-11T08:34:26.839+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1001685001 ns, Reaching safepoint: 261833 ns, At safepoint: 14167 ns, Total: 276000 ns
+[2024-03-11T08:34:27.844+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1005068500 ns, Reaching safepoint: 191667 ns, At safepoint: 5875 ns, Total: 197542 ns
+[2024-03-11T08:34:28.846+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1002150167 ns, Reaching safepoint: 284208 ns, At safepoint: 6750 ns, Total: 290958 ns
+[2024-03-11T08:34:29.853+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1006446876 ns, Reaching safepoint: 308250 ns, At safepoint: 6958 ns, Total: 315208 ns
+[2024-03-11T08:34:30.856+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1002846125 ns, Reaching safepoint: 283167 ns, At safepoint: 9416 ns, Total: 292583 ns
+[2024-03-11T08:34:31.858+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1001809084 ns, Reaching safepoint: 236625 ns, At safepoint: 6500 ns, Total: 243125 ns
+[2024-03-11T08:34:32.863+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1003812792 ns, Reaching safepoint: 284459 ns, At safepoint: 12916 ns, Total: 297375 ns
+[2024-03-11T08:34:34.510+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1647393751 ns, Reaching safepoint: 340000 ns, At safepoint: 9792 ns, Total: 349792 ns
+[2024-03-11T08:34:35.516+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1005384084 ns, Reaching safepoint: 489125 ns, At safepoint: 6583 ns, Total: 495708 ns
+[2024-03-11T08:34:36.521+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1004978875 ns, Reaching safepoint: 237875 ns, At safepoint: 12459 ns, Total: 250334 ns
+[2024-03-11T08:34:37.526+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1004262584 ns, Reaching safepoint: 383458 ns, At safepoint: 8833 ns, Total: 392291 ns
+[2024-03-11T08:34:38.530+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1003277042 ns, Reaching safepoint: 358834 ns, At safepoint: 9625 ns, Total: 368459 ns
+[2024-03-11T08:34:39.532+0000][7][safepoint    ] Safepoint "Cleanup", Time since last: 1001810792 ns, Reaching safepoint: 240833 ns, At safepoint: 6584 ns, Total: 247417 ns
+[2024-03-11T08:34:39.785+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 253390750 ns, Reaching safepoint: 217041 ns, At safepoint: 145709 ns, Total: 362750 ns
+[2024-03-11T08:34:39.794+0000][7][safepoint    ] Safepoint "BulkRevokeBias", Time since last: 8348458 ns, Reaching safepoint: 162542 ns, At safepoint: 212000 ns, Total: 374542 ns
+[2024-03-11T08:34:39.841+0000][7][gc,heap,exit ] Heap
+[2024-03-11T08:34:39.841+0000][7][gc,heap,exit ]  garbage-first heap   total 524288K, used 324928K [0x00000000e0000000, 0x0000000100000000)
+[2024-03-11T08:34:39.841+0000][7][gc,heap,exit ]   region size 1024K, 255 young (261120K), 15 survivors (15360K)
+[2024-03-11T08:34:39.842+0000][7][gc,heap,exit ]  Metaspace       used 97528K, capacity 105007K, committed 105244K, reserved 1138688K
+[2024-03-11T08:34:39.842+0000][7][gc,heap,exit ]   class space    used 12996K, capacity 16004K, committed 16076K, reserved 1048576K

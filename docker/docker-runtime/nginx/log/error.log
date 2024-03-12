@@ -1,0 +1,8 @@
+2024/03/11 03:34:03 [emerg] 9#9: host not found in upstream "magento_varnish:6081" in /etc/nginx/sites-available/default.conf:2
+2024/03/11 03:36:21 [emerg] 8#8: no port in upstream "php-upstream" in /etc/nginx/sites-available/default.conf:50
+2024/03/11 03:37:48 [emerg] 9#9: no port in upstream "php-upstream" in /etc/nginx/sites-available/default.conf:50
+2024/03/11 09:48:24 [emerg] 9#9: invalid URL prefix in /etc/nginx/sites-available/default.conf:26
+2024/03/11 09:49:07 [emerg] 9#9: invalid URL prefix in /etc/nginx/sites-available/default.conf:26
+2024/03/11 09:56:27 [emerg] 9#9: invalid number of arguments in "fastcgi_buffers" directive in /etc/nginx/sites-available/default.conf:24
+2024/03/11 09:56:42 [emerg] 9#9: "fastcgi_buffers" directive invalid value in /etc/nginx/sites-available/default.conf:24
+2024/03/11 09:57:41 [emerg] 9#9: unknown directive "fastegi_buffering" in /etc/nginx/sites-available/default.conf:21

@@ -1,0 +1,1 @@
+* * * * * root /usr/local/bin/php /var/www/bin/magento cron:run >> /var/www/var/log/magento2.cron.log 2>&1
